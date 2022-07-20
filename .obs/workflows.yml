@@ -1,0 +1,7 @@
+rebuild_master:
+  steps:
+    - rebuild_package:
+        project: home:huangteng
+        package: p1
+  filters:
+    event: push
